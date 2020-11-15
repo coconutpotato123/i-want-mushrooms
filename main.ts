@@ -192,9 +192,4 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function(spr
 // Lose condition
 scene.onOverlapTile(SpriteKind.Player, LavaImg, function(sprite: Sprite, location: tiles.Location) {
     game.over(false)
-})// INITIALIZE
-let leftsideImg = sprites.castle.princess2Left2
-let rightsideImg = sprites.castle.princess2Right2
-let mushImg = sprites.builtin.forestMushroomPatch
-tiles.setTilemap(tilemap`level`)
-let hero = sprites.create (leftsideImg, SpriteKind.Player)
+})
