@@ -129,7 +129,7 @@ tiles.setTilemap(tiles.createTilemap(hex`100020000000010303030303030303030303010
 let row = 32
 let column = 16
 // Create hero sprite
-let player = sprites.create(leftFacingImg, SpriteKind.Player)
+let hero = sprites.create(leftFacingImg, SpriteKind.Player)
 controller.moveSprite(hero, 100, 0)
 
 tiles.placeOnTile(hero, tiles.getTileLocation(4, 30))
